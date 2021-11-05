@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- from bootstrap css link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        img{
+            width: 100px;
+            box-shadow: 2px 4px 7px darkolivegreen;
+        }
+    </style>
+    <title>AJAX</title>
+</head>
+<body>
+    <div class="container my-4">
+        <button class="btn btn-warning" id="getData">GET DATA</button>
+    </div>
+    <div class="container">
+        <table class="table table-info table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Image</th>
+                </tr>
+            </thead>
+            <tbody id="tableData">
+
+            </tbody>
+            
+        </table>
+    </div>
+    <!-- js file -->
+    <script src="script.js"></script>
+</body>
+</html>
