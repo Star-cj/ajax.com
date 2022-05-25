@@ -12,7 +12,7 @@ getData.addEventListener("click", () => {
     }
     xhr.onload = function () {
         if (this.status === 200) {
-            let objData = JSON.parse(this.responseText);    //this will hold info for source fakestoreapoi
+            let objData = JSON.parse(this.responseText);    //this will hold info for source fakestoreapi
             console.log(objData);  //JSON.parse() convert it to object (array form)
             let table = document.getElementById("tableData");
 
